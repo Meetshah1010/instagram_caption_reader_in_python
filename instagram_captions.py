@@ -5,7 +5,7 @@ import numpy as np
 
 # launch Chrome and navigate to Instagram page
 driver = webdriver.Chrome(executable_path=r'C:\Users\meet\Downloads\chromedriver_win32\chromedriver.exe')                 
-driver.get("https://www.instagram.com/ruchit.kukadiya/")
+driver.get("https://www.instagram.com/meet_shah_10_10/")
 
 # scroll to the bottom of the page
 lenOfPage = driver.execute_script("window.scrollTo(0, document.body.scrollHeight);var lenOfPage=document.body.scrollHeight;return lenOfPage;")
